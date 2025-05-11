@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NewCo &mdash; Coming Soon</title>
+  <meta name="description" content="Our stealth newco is launching soon. Stay tuned for updates!">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background: #fafafa;
+    }
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .email-input {
+      display: flex;
+      max-width: 400px;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+    .email-input input[type="email"] {
+      flex: 1;
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-right: none;
+      border-radius: 4px 0 0 4px;
+      font-size: 1rem;
+    }
+    .email-input button {
+      padding: 0.8rem 1.2rem;
+      border: 1px solid #28a745;
+      background-color: #28a745;
+      color: #fff;
+      border-radius: 0 4px 4px 0;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.2s, border-color 0.2s;
+    }
+    .email-input button:hover {
+      background-color: #218838;
+      border-color: #1e7e34;
+    }
+    .social a {
+      margin: 0 0.5rem;
+      color: #333;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: color 0.2s;
+    }
+    .social a:hover {
+      color: #28a745;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #f0f0f0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="NewCo Logo" style="max-width: 180px; margin-bottom: 2rem;">
+    <h1>We're Coming Soon</h1>
+    <p>Exciting things are on the way. Stay tuned for updates from our stealth newco.</p>
+    <form class="email-input" action="#" method="post">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Notify Me</button>
+    </form>
+    <div class="social">
+      <a href="#" aria-label="Twitter">Twitter</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      <a href="#" aria-label="GitHub">GitHub</a>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 NewCo. All rights reserved.
+  </footer>
+</body>
+</html>
